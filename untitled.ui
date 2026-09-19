@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1327</width>
+    <height>825</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="OpenVideoBtn">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>510</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>视频/图片输入</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>1301</width>
+      <height>481</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>处理结果</string>
+    </property>
+    <widget class="QLabel" name="Imglabel">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>10</y>
+       <width>641</width>
+       <height>451</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>570</y>
+      <width>1291</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>详细信息</string>
+    </property>
+    <widget class="QLabel" name="Infolabel">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>50</y>
+       <width>1221</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="CameraBtn">
+    <property name="geometry">
+     <rect>
+      <x>870</x>
+      <y>510</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>启用摄像头</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1327</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

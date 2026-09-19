@@ -1,0 +1,55 @@
+﻿# ==================== Python ====================
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.ipynb_checkpoints/
+
+# ==================== 虚拟环境（1.4GB，绝对不要上传） ====================
+venv/
+.venv/
+env/
+ENV/
+
+# ==================== IDE / 编辑器 ====================
+.idea/
+.vscode/
+*.swp
+*~
+
+# ==================== PyInstaller 打包产物 ====================
+# build/ 是打包中间文件；dist/main.exe 体积 236MB，请通过 GitHub Release 发布
+build/
+dist/
+*.manifest
+
+# ==================== 大体积视频 / 演示文件 ====================
+*.avi
+*.mp4
+*.mov
+*.mkv
+*.flv
+
+# ==================== 数据集（自购，无权再分发，不公开） ====================
+# 仅保留 data.yaml 用于说明数据格式；图片、标注、卖家说明文档一律不提交
+mydata/*
+!mydata/fall_down_yolo/
+mydata/fall_down_yolo/*
+!mydata/fall_down_yolo/data.yaml
+
+# ==================== 训练 / 推理输出 ====================
+# 只保留最终一次训练 exp4（含 best.pt 与训练曲线），其余全部忽略
+runs/*
+!runs/train/
+runs/train/*
+!runs/train/exp4/
+runs/train/exp4/events.out.tfevents*
+
+# ==================== 临时文件 ====================
+*.log
+*.tmp
+*.bak
+*.zip
+
+# YOLOv5 数据缓存文件
+*.cache
